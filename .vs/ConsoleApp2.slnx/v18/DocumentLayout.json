@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Ayoub\\Documents\\git_repos\\ConsoleApp2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{297EF0BA-A6B0-435F-9437-632279DE10A1}|ConsoleApp2\\ConsoleApp2.csproj|C:\\Users\\Ayoub\\Documents\\git_repos\\ConsoleApp2\\consoleapp2\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{297EF0BA-A6B0-435F-9437-632279DE10A1}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{297EF0BA-A6B0-435F-9437-632279DE10A1}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\ayoub\\documents\\git_repos\\consoleapp2\\consoleapp2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{297EF0BA-A6B0-435F-9437-632279DE10A1}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub\\Documents\\git_repos\\ConsoleApp2\\ConsoleApp2\\Employee.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Employee.cs",
+              "ToolTip": "C:\\Users\\Ayoub\\Documents\\git_repos\\ConsoleApp2\\ConsoleApp2\\Employee.cs",
+              "RelativeToolTip": "ConsoleApp2\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T05:06:48.533Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -23,14 +41,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Ayoub\\Documents\\git_repos\\ConsoleApp2\\ConsoleApp2\\Employee.cs",
-              "RelativeDocumentMoniker": "ConsoleApp2\\Employee.cs",
-              "ToolTip": "C:\\Users\\Ayoub\\Documents\\git_repos\\ConsoleApp2\\ConsoleApp2\\Employee.cs",
-              "RelativeToolTip": "ConsoleApp2\\Employee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Title": "Developer.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub\\Documents\\git_repos\\ConsoleApp2\\ConsoleApp2\\Developer.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Developer.cs",
+              "ToolTip": "C:\\Users\\Ayoub\\Documents\\git_repos\\ConsoleApp2\\ConsoleApp2\\Developer.cs",
+              "RelativeToolTip": "ConsoleApp2\\Developer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T19:03:32.399Z",
+              "WhenOpened": "2026-02-04T06:02:28.156Z",
               "EditorCaption": ""
             }
           ]

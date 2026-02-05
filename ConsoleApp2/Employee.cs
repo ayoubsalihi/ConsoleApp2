@@ -8,23 +8,37 @@ namespace ConsoleApp2
 {
     internal class Employee
     {
-        public string nom;
-        public string type_employee;
+        private string nom;
+        private string type_employee;
 
         public string TypeEmployee
         {
             get { return type_employee; }
-            set {  type_employee = value; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                    throw new ArgumentNullException("Le type d'employé ne peut pas être nul")
+            }
         }
         public string Nom
         {
             get { return nom; }
-            set { nom = value; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                    throw new ArgumentNullException("Le nom ne peut pas être nul");
+                Nom = value;
+            }
         }
         public Employee(string nom, string type_employee)
         {
             this.nom = nom;
             this.type_employee = type_employee;
+        }
+
+        public virtual void Afficher()
+        {
+            Console.WriteLine($"Nom: {Nom}, Poste: {TypeEmployee}")
         }
     }
 }
