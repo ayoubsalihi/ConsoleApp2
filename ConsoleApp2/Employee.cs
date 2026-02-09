@@ -17,7 +17,7 @@ namespace ConsoleApp2
             set
             {
                 if (string.IsNullOrEmpty(value))
-                    throw new ArgumentNullException("Le type d'employé ne peut pas être nul")
+                    throw new ArgumentNullException("Le type d'employé ne peut pas être nul");
             }
         }
         public string Nom
@@ -27,7 +27,7 @@ namespace ConsoleApp2
             {
                 if (string.IsNullOrEmpty(value))
                     throw new ArgumentNullException("Le nom ne peut pas être nul");
-                Nom = value;
+                nom = value;
             }
         }
         public Employee(string nom, string type_employee)
@@ -38,7 +38,7 @@ namespace ConsoleApp2
 
         public virtual void Afficher()
         {
-            Console.WriteLine($"Nom: {Nom}, Poste: {TypeEmployee}")
+            Console.WriteLine($"Nom: {Nom}, Poste: {TypeEmployee}");
         }
     }
 }

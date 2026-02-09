@@ -24,7 +24,7 @@ namespace ConsoleApp2
         public override void Afficher()
         {
             base.Afficher();
-            Console.WriteLine($"Taux horaires: {taux_horaire}, heures travaillées");
+            Console.WriteLine($"Taux horaires: {taux_horaire}, ${heurestravaillees} heures travaillées");
         }
     }
 }
